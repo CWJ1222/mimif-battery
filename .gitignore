@@ -1,0 +1,28 @@
+node_modules/
+.DS_Store
+run.log
+*.log
+.node-path
+.setup-backup.env
+
+# Private development notes and machine-local configuration
+.codex/
+.claude/
+.agents/
+AGENTS.md
+CLAUDE.md
+.env
+.env.*
+!.env.example
+
+# Device state, diagnostics, and browser sessions
+state.json
+*.lock.tmp
+*.har
+*.pem
+*.key
+debug-output*.json
+status-dump*.json
+playwright-report/
+test-results/
+browser-profile/

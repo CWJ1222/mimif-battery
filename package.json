@@ -1,0 +1,19 @@
+{
+  "name": "modem-battery",
+  "version": "1.0.0",
+  "description": "TP-Link M7000 MiFi battery % in the macOS menu bar (SwiftBar)",
+  "main": "menu.mjs",
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "playwright-core": "^1.63.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
